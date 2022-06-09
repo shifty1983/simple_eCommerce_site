@@ -1,0 +1,107 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    font-weight: normal;
+}
+
+header {
+   position: relative;
+   padding: 1rem; 
+}
+/* Fix top navigation */
+.topnav {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    overflow: hidden;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Centered section inside the top navigation */
+.topnav-centered a {
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* Right-aligned section inside the top navigation */
+.topnav-right{
+    float: right;
+    margin-right: 1.5rem;   
+}
+
+/* Search Bar */
+.search-field {
+    padding: 2px 3px;
+}
+
+.search-button img {
+    width: 15px;
+    height: 15px;
+    object-fit: cover;
+}
+
+.search-button {
+    background: transparent;
+    border: none;
+    outline: none;
+    margin-left: -25px;
+}
+
+.HOME img{
+    width: 1920px;
+    height: 633px;  
+}
+
+.HOME h1{
+    float: none;
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+    font-size: 45px;
+    font-weight: bold;
+    object-fit: cover;
+    color: white;
+}
+
+.HOME h2{
+    float: none;
+    position: absolute;
+    bottom: 25%;
+    right: 0%;
+    transform: translate(-50%, -50%);
+    font-size: 45px;
+    font-weight: bold;
+    object-fit: cover;
+    color: white;
+}
+
+.about1 img{
+    width: 397px;
+    height: 534px;
+}
